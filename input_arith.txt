@@ -1,0 +1,6 @@
+; Good inputs: 0, -42, +65 
+; Bad inputs: groot, k9, t, nil
+(
+ (print "Enter something: ")
+ ((+ 2 (input)))
+)

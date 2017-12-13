@@ -1,0 +1,7 @@
+; Good inputs (anything): 0, -42, +65, groot, k9, nil, t
+; There are no bad inputs
+; Whatever you input, it should evaluate to t
+(
+ (print "Enter something: ")
+ (or nil (input))
+)
